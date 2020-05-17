@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta Tags -->
+    {% include 'components/meta-tags.html' %}
+
+    <!-- Application Title -->
+    <title>
+      {% block head_title %} My Django Project {% endblock %} - © Numan Ibn Mazid
+    </title>
+
+    <!-- Styles and CSS -->
+    {% include 'components/styles.html' %}
+
+    <!-- Extra CSS -->
+    {% block extra_css %}{% endblock %}
+
+</head>
+
+<body>
+
+    <div class="d-flex" id="wrapper">
+
+        <!-- Sidebar -->
+        {% include 'components/left-sidebar.html' %}
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+
+            <!-- Navbar  -->
+            {% include 'components/navbar.html' %}
+
+            <div class="container-fluid">
+                <!-- ---------- Main Content Starts ---------- -->
+                {% block content %}{% endblock %}
+                <!-- ---------- Main Content Ends ---------- -->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    {% include 'components/scripts.html' %}
+
+    <!-- Extra Scripts -->
+    {% block extra_js %}{% endblock %}
+
+</body>
+
+</html>
