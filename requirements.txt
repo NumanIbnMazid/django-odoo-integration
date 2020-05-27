@@ -1,0 +1,8 @@
+asgiref==3.2.7
+autopep8==1.5.2
+Django==3.0.6
+ERPpeek==1.7.1
+pycodestyle==2.6.0
+pytz==2020.1
+six==1.14.0
+sqlparse==0.3.1
