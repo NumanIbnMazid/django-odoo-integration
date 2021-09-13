@@ -120,8 +120,8 @@ MEDIA_ROOT = os.path.join('static_cdn', 'media_root')
 ODOO_HOST = {'USER': 'numanibnmazid@gmail.com', 'PASSWORD': 'postgres',
              'HOST': 'http://localhost', 'PORT': 8069, 'DB': 'odoo'}
 
-ODOO_USER = 'numanibnmazid@gmail.com'
-ODOO_PASSWORD = 'postgres'
+ODOO_USER = 'xxxx@gmail.com'
+ODOO_PASSWORD = 'xxxx'
 ODOO_HOST = 'http://localhost'
 ODOO_PORT = 8069
 ODOO_DB = 'odoo'
